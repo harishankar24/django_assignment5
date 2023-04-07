@@ -19,5 +19,6 @@ from FBVwSER import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.passenger_list),
+    path('passenger/', views.passenger_list),
+    path('passenger/<int:pk>', views.passenger_detail),
 ]

@@ -9,7 +9,7 @@ One view performs non primary key based operations(Read, Create) & second one pe
 
 
 
-## SAMPLE DATA
+### SAMPLE DATA
 insert into passenger (firstName, lastName, email, rewardPoints) values ('Gerek', 'Alpin', 'galpinb@ask.com', 179);
 insert into passenger (firstName, lastName, email, rewardPoints) values ('Anne', 'Mizzi', 'amizzic@chicagotribune.com', 79);
 insert into passenger (firstName, lastName, email, rewardPoints) values ('Caleb', 'Thatcham', 'cthatchamd@bandcamp.com', 536);
